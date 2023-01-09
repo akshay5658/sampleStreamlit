@@ -18,7 +18,7 @@ footer{
 }
 <style>
 """
-# st.markdown(hidemenu,unsafe_allow_html=True)
+st.markdown(hidemenu,unsafe_allow_html=True)
 
 # with st.sidebar:
 selected1 = option_menu(
@@ -71,7 +71,7 @@ with col5:
 		["--select--"]+list(dataframe4["Fuel"].unique()),key = "159")
 	else:
 		dataframe4 = dataframe3[ (dataframe3["Km(x1000)"]==int(o3))]
-		o5 = st.selectbox('Select a Month from pursache',
+		o5 = st.selectbox('Select a Month from purchase(Optional)',
 		[0]+list(dataframe3["Fuel"].unique()),key = "160")
 		
 

@@ -27,7 +27,7 @@ selected1 = option_menu(
 	orientation="horizontal",
 	)
 
-dataframe = pd.read_excel("C:\\Users\\tejas\\Downloads\\reboschdataanalystinterview\\Ertiga 1.4 Generation I NOT COMPLETED.xlsx",sheet_name="Sheet1")
+dataframe = pd.read_excel("Ertiga 1.4 Generation I NOT COMPLETED.xlsx",sheet_name="Sheet1")
 # print(dataframe)
 # st.write(dataframe.columns)
 st.markdown("<h2 style='text-align: center; color: black;'>Periodic Maintenance Shedule </h2>", unsafe_allow_html=True)

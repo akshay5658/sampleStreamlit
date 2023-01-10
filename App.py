@@ -18,7 +18,7 @@ footer{
 }
 <style>
 """
-# st.markdown(hidemenu,unsafe_allow_html=True)
+st.markdown(hidemenu,unsafe_allow_html=True)
 
 # with st.sidebar:
 selected1 = option_menu(
